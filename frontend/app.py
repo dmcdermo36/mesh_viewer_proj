@@ -10,8 +10,8 @@ if "IS_XVFB_RUNNING" not in st.session_state:
   st.session_state.IS_XVFB_RUNNING = True 
 
 
-st.title("Interactive 3D Mesh Visualization with stpyvista")
-st.write("This is a demo of the `stpyvista` Streamlit component.")
+st.title("Interactive 3D Mesh Visualization")
+st.write("Some useful text here.")
 
 # Set up a PyVista plotter
 plotter = pv.Plotter(window_size=(500, 900))
@@ -37,7 +37,7 @@ actor.prop.color = pv.Color(color)
 
 stpyvista(plotter)
 
-st.write("More text after plotters")
+st.write("More text after plot")
 
 
 
