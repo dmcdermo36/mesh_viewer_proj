@@ -3,3 +3,4 @@ uvicorn
 numpy
 vtk
 pyvista
+panel
